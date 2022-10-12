@@ -1,0 +1,37 @@
+\input texinfo
+@settitle MLP
+
+@copying
+Copyright @copyright{} school 21
+@end copying
+
+@titlepage
+@title 3d viewer 2.0
+@author cshara bromanyt
+@page
+@vskip 0pt plus 2filll
+@insertcopying
+@end titlepage
+
+@heading Description
+The program is designed to recognize handwritten letters of the English alphabet based on a neural network.@*
+
+@heading Program settings:@*
+@heading Perceptron type@*
+The neural network can be organized by matrix and graph type of construction. @*The weights obtained as a result of training can be used by any of the two types, regardless of which of them was trained.@*
+The number of hidden layers.
+You can choose from two to five hidden layers of the neural network. This setting affects both training @*and work on letter recognition. By switching during recognition, you load the weights preset by the program for this number of layers.@*
+The weights obtained as a result of network training can be both saved and loaded.
+
+@heading Testing@*
+You can perform full or partial testing with the test case based on the settings you choose. At the end of the test, you can read the report@* by clicking on the appropriate button.
+
+@heading Education@*
+The training data set is transferred from one to five times (epochs). You can also use cross-validation with a split of two to five groups.@*
+As in testing, you will be given a report. The bar chart displays the percentage of errors at each training epoch.
+ 
+@heading Usage@*
+The program allows you to recognize images of Latin letters written on the screen or loaded from a file. For downloaded data, the@* requirement for the background color (black) and font (white) remains.
+By writing a letter or uploading an image, you can click the@* recognition button in the form of a magnifying glass to get the answer of the neural network, which will be displayed in the upper@* left corner. In the same place, there is a button for erasing, but you can also do this by pressing the right mouse button.
+
+@bye
