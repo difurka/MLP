@@ -14,6 +14,8 @@ The neural network has two versions:
 To build, you need: `QT 5.15.2` and higher
 
 All the data necessary for training and testing the neural network is in the archive `src/sources/emnist_data.tar.gz`
+
+The program is built with Makefile which contains targets: all, install, uninstall, clean, dvi, dist, tests (MacOS, Linux)
     
 ## Input data
 

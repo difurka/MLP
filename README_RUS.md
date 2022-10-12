@@ -14,6 +14,7 @@
 Для сборки нужны: `QT 5.15.2` и выше
 
 Все данные необходимые для обучения и тестов нейросети находятся в архиве `src/sources/emnist_data.tar.gz`
+Сборка программы настроена с помощью Makefile с целями: all, install, uninstall, clean, dvi, dist, tests (MacOS, Linux)
     
 ## Входные данные
 
