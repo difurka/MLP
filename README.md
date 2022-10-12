@@ -1,6 +1,6 @@
 # MLP
 
-The project was completed by: Balakina Ekaterina (cshara), Borisov Dmitrii (bromanyt).
+The project was completed by: Balakina Ekaterina (cshara) - matrix implementation, Borisov Dmitrii (bromanyt) - graph implementation.
 
 <img src="src/icons/logo.png" width="400" height="400" />
 
